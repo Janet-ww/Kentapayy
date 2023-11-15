@@ -1,0 +1,118 @@
+
+
+
+#partner {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    margin-top: 2%;
+    overflow: hidden;
+  }
+  
+  #partner h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #206fb7;
+    margin-left: -64%;
+  }
+  
+  #partner img {
+    max-width: 100%;
+    height: auto;
+    margin-top: -0.9%;
+    margin-left: -3%;
+    animation: scrollLogos 10s linear infinite; 
+  }
+  
+  #partner p {
+    font-size: 1.8em;
+    margin-top: -28%;
+    color: #fff;
+    margin-left: 45%;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    font-weight:  300;
+    line-height: 1.6;
+  }
+  
+@keyframes scrollLogos {
+  0% {
+      transform: translateX(5);
+  }
+  100% {
+      transform: translateX(-50%); /* Move the logos to the left by the width of one logo */
+  }
+}
+  /*#mp {
+    margin-top: -2%;
+margin-left: 62%;
+  }
+
+  #mp h3{
+    font-size: 2em;
+    color: #206fb7;
+    margin-top: 10%;
+    margin-left: -6%;
+  }*/
+  #tasker {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+  }
+  .value-prop-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #fff;
+    background-color: #fff; /* Set the background color to black */
+    color: white; /* Set text color to white */
+    margin-top: -5%;
+  }
+  
+  .text-container {
+    flex: 1;
+    padding: 20px;
+  }
+  .text-container h3{
+    font-size: 2.2em;
+    color: #206fb7;
+    letter-spacing: 1.5px;
+    margin-top: 0.5%;
+    margin-left: 1%;
+    font-family: 'Roboto', sans-serif;
+  }
+  .text-container p{
+    font-size: 1.2em;
+    color: #1a1a1a;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-family: 'Roboto', sans-serif;
+   
+  }
+  
+  figure {
+   margin-top: -30%;
+    text-align: right;
+    margin-right: 7%;
+  }
+  
+  /* Style the text inside the container */
+  .text-container h2,
+  .text-container .description,
+  .text-container ul li {
+    color: white; /* Set text color inside the container to white */
+  }
+  .container{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+ 
