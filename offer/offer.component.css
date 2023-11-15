@@ -1,0 +1,232 @@
+.sub-part img {
+    width: 100%; /* Make sure the image fills the container */
+    height: auto; /* Maintain the aspect ratio of the image */
+    border-radius: 7px; /* Add border radius to the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
+
+
+
+
+
+.one img {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; /* Align text in the center */
+    width: 80%;
+    margin-top: -22%;
+}
+
+.one h4 {
+    color: #206fb7; /* Set color for the heading */
+    font-size: 1.5em; /* Adjust the font size for the heading */
+    margin-top: -145px; /* Add some space below the heading */
+    margin-left: -60%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.one p {
+    color: #1a1a1a !important; /* Set color for the paragraph text */
+    font-size: 1.1em !important; /* Adjust the font size for the paragraph */
+    margin-top: -6% !important;
+    display: block !important;
+    font-weight: 400;
+    margin-left: -10%;
+}
+
+
+
+
+
+.two img {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; /* Align text in the center */
+    width: 80%;
+    margin-top: -22%;
+}
+
+.two h4 {
+    color: #206fb7; /* Set color for the heading */
+    font-size: 1.5em; /* Adjust the font size for the heading */
+    margin-top: -145px; /* Add some space below the heading */
+    margin-left: -60%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.two p {
+    color: #1a1a1a !important; /* Set color for the paragraph text */
+    font-size: 1.1em !important; /* Adjust the font size for the paragraph */
+    margin-top: -6% !important;
+    display: block !important;
+    font-weight: 400;
+    margin-left: -10%;
+}
+
+
+
+
+
+
+
+.three img {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; /* Align text in the center */
+    width: 80%;
+    margin-top: -22%;
+}
+
+.three h4 {
+    color: #206fb7; /* Set color for the heading */
+    font-size: 1.5em; /* Adjust the font size for the heading */
+    margin-top: -145px; /* Add some space below the heading */
+    margin-left: -44%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.three p {
+    color: #1a1a1a !important; /* Set color for the paragraph text */
+    font-size: 1.1em !important; /* Adjust the font size for the paragraph */
+    margin-top: -6% !important;
+    display: block !important;
+    margin-left: 5% !important;
+    font-weight: 400;
+    margin-left: 2% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+.four img {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; /* Align text in the center */
+    width: 80%;
+    margin-top: -22%;
+}
+
+.four h4 {
+    color: #206fb7; /* Set color for the heading */
+    font-size: 1.5em; /* Adjust the font size for the heading */
+    margin-top: -145px; /* Add some space below the heading */
+    margin-left: -48%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.four p {
+    color: #1a1a1a !important; /* Set color for the paragraph text */
+    font-size: 1.1em !important; /* Adjust the font size for the paragraph */
+    margin-top: -6% !important;
+    display: block !important;
+    font-weight: 400;
+    margin-left: -6%;
+}
+
+
+
+
+
+
+
+
+
+.five img {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; /* Align text in the center */
+    width: 80%;
+    margin-top: -22%;
+}
+
+.five h4 {
+    color: #206fb7; /* Set color for the heading */
+    font-size: 1.5em; /* Adjust the font size for the heading */
+    margin-top: -145px; /* Add some space below the heading */
+    margin-left: -48%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.five p {
+    color: #1a1a1a !important; /* Set color for the paragraph text */
+    font-size: 1.1em !important; /* Adjust the font size for the paragraph */
+    margin-top: -6% !important;
+    display: block !important;
+    font-weight: 400;
+    margin-left: -6%;
+}
+
+
+
+#offertext h3{
+    font-size: 2.0em;
+    margin-top: 8%;
+    color: #206fb7;
+    font-family: 'Roboto', sans-serif;
+   text-align: center;
+  }
+  #offertext p{
+    font-size: 1.5em;
+    font-weight: 390;
+    color: #1a1a1a;
+    margin-top: 1%;
+   text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+.slider-container {
+    width: 80%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-item {
+    flex: 0 0 33.33%;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: transform 0.5s ease-in-out;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: blue;
+}
+
+/* Zoom in effect for selected item */
+.slider-item.active {
+    transform: scale(1.1);
+}

@@ -1,0 +1,80 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Open+Sans:wght@300;500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+<section id="offertext">
+    <h3>What do we have to offer?</h3>
+    <p>Access everything you need with one integration!</p>
+<div class="slider-container">
+    <div class="slider" [style.transform]="'translateX(' + ((1 - currentSlide) * 33.33) + '%)'">
+      <div class="slider-item" id="item1">
+        <!-- ... Content for item 1 ... -->
+        <div class="sub-part">
+            <img src="assets/slide/slide1.jpg" alt="Image 1"  >
+        </div>
+        <div class="one">
+            <img src="assets/slide/download.png" alt="Image 1"  >
+            
+            <h4>Voice</h4>
+            <p>Get unlimited talktime across<br>all networks within East Africa</p>
+        
+        </div>
+      </div>
+      <div class="slider-item" id="item2">
+        <!-- ... Content for item 2 ... -->
+        <div class="sub-part">
+            <img src="assets/slide/slide1.jpg" alt="Image 1" >
+        </div>
+        <div class="two">
+            <img src="assets/slide/download.png" alt="Image 1"  >
+            <h4>Voice</h4>
+            <p>Get unlimited talktime across<br>all networks within East Africa</p>
+        </div>
+      </div>
+      <div class="slider-item" id="item3">
+        <!-- ... Content for item 3 ... -->
+        <div class="sub-part">
+            <img src="assets/slide/slide2.jpg" alt="Image 1" >
+        </div>
+        <div class="three">
+            <img src="assets/slide/download.png" alt="Image 1">
+            <h4>Developer<br>Community</h4>
+            <p>Access all our developer resources<br>and integrations swiftly</p>
+           
+
+        </div>
+      </div>
+      <div class="slider-item" id="item4">
+        <!-- ... Content for item 4 ... -->
+        <div class="sub-part">
+            <img src="assets/slide/images (1).jpeg" alt="Image 1" >
+        </div>
+        <div class="four">
+            <img src="assets/slide/download.png" alt="Image 1"  >
+            <h4>Electronic<br> Payment</h4>
+            <p>Quick response payments for all<br>your online payment and POS</p>
+            
+        </div>
+      </div>
+      <div class="slider-item" id="item5">
+        <!-- ... Content for item 5 ... -->
+        <div class="sub-part">
+            <img src="assets/slide/images (1).jpeg" alt="Image 1" >
+        </div>
+        <div class="five">
+            <img src="assets/slide/download.png" alt="Image 1"  >
+            <h4>Electronic<br> Payment</h4>
+            <p>Quick response payments for all<br>your online payment and POS</p>
+            
+        </div>
+      </div>
+    </div>
+    <div class="dots">
+      <span class="dot" (click)="onDotClick(0)" [class.active]="currentSlide === 1" [class.active]="activeDot === 0"></span>
+      <span class="dot" (click)="onDotClick(1)" [class.active]="currentSlide === 2" [class.active]="activeDot === 1"></span>
+      <span class="dot" (click)="onDotClick(2)" [class.active]="currentSlide === 3" [class.active]="activeDot === 2"></span>
+      <span class="dot" (click)="onDotClick(3)" [class.active]="currentSlide === 4" [class.active]="activeDot === 3"></span>
+      <span class="dot" (click)="onDotClick(4)" [class.active]="currentSlide === 5" [class.active]="activeDot === 4"></span>
+    </div>
+  </div>
+</section>
