@@ -7,9 +7,8 @@ body {
   margin: 0; /* Remove default margin */
 }
 
-.bggrey {
-  background-color: #f0f0f0; /* Set a background color for the container */
-  margin-left: -1%; /* Remove default margin */
+.bggrey img{
+  margin-top: 10% !important;
 }
 
 h3 {
@@ -30,14 +29,14 @@ p {
   text-align: center;
   padding: 50px;
   background-color: #fff;
-  margin-top: -45%;
+  margin-top: -35%;
 }
 
 #talktous h3 {
   font-size: 2em;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   color: #206fb7;
-  margin-left: -60%;
+  margin-left: -49%;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1.5px;
 }
@@ -45,15 +44,15 @@ p {
 #talktous img {
   max-width: 100%;
   height: auto;
-  margin-top: -0.9%;
-  margin-left: -3%;
+  margin-top: 1%;
+  margin-left: 1.5%;
 }
 
 #talktous p {
   font-size: 1.8em;
   margin-top: -28%;
   color: #fff;
-  margin-left: 45%;
+  margin-left: 50%;
   display: block;
   text-align: left;
   text-decoration: none;
@@ -68,7 +67,7 @@ p {
   color: #fff;
   font-size: 1.2em;
   padding: 10px 60px;
-  margin-right: -5.8%;
+  margin-right: -18.5%;
   border-radius: 7px;
   outline: none;
   cursor: pointer;
